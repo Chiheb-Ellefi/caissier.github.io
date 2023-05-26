@@ -1,0 +1,142 @@
+.items .title {
+    width: 100%;
+    text-align: center;
+    font-size: 3em;
+    letter-spacing: 1px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: white;
+}
+
+.page .items .content .outputs {
+    margin-left: 20px;
+    width: 35%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: white;
+}
+
+.page .items .content .outputs input {
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+.items .content .inputs {
+    width: 65%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.items .content .inputs .mtotal {
+    background-color: #e63946;
+    color: white;
+    font-weight: bold;
+    font-size: 4em;
+    width: 90%;
+    margin: 20px auto;
+    text-align: center;
+    padding: 20px 0px;
+    border-radius: 2px;
+}
+
+.items .content .inputs .code {
+    color: white;
+    width: 50%;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.items .content .inputs .code input {
+    width: 90%;
+    margin-left: 10px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    padding: 0px 10px;
+    font-size: 1.2em;
+}
+
+.items .content .inputs .put {
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.items .content .inputs .put .clavier {
+    margin-left: 20px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: white;
+    gap: 10px;
+    background-color: transparent;
+}
+
+.items .content .inputs .put .clavier button {
+    background-color: #457b9d;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    border: none;
+    font-size: 1.4em;
+    height: 70px;
+    width: 70px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.items .content .inputs .put .methods {
+    display: flex;
+    flex-direction: column;
+}
+
+.items .content .inputs .put .methods .method {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+}
+
+.items .content .inputs .put .methods .method button {
+    background-color: #457b9d;
+    border-radius: 10px;
+    color: white;
+    border: none;
+    font-size: 1.4em;
+    padding: 20px;
+    margin-left: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+#cash {
+    margin-left: 0px;
+}
+
+.items .content .inputs .put .methods .options {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.items .content .inputs .put .methods .options button {
+    background-color: #457b9d;
+    font-weight: bold;
+    border-radius: 10px;
+    color: white;
+    font-size: 1.4em;
+    border: none;
+    padding: 20px;
+    margin-top: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+button:hover {
+    cursor: pointer;
+}
